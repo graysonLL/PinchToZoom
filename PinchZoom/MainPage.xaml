@@ -1,0 +1,12 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PinchZoom"
+             x:Class="PinchZoom.MainPage">
+
+    <local:PinchToZoomContainer>
+        <local:PinchToZoomContainer>
+            <Image Source="lebronbron.jpg" />
+        </local:PinchToZoomContainer>
+    </local:PinchToZoomContainer>
+
+</ContentPage>
